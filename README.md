@@ -4,3 +4,9 @@ There are many gunshot audio files that are being used to calculate the position
 
 # Project Description
 In this project, I wrote a MATALB program that reads large audio files which contains multiple gunshots, automatically parse each gunshot, and extract the essential bits in one text file for each gunshot. I've added three different methods to extract them: 1) cross-correlation method, 2) specifying left and right padding w.r.t the position of the shockwave, and 3) manually picking the start and end points of the gunshot portion.    
+
+# Personal Context
+This was a project done while I interned at Jain Technology in South Korea. One of the many things they specialize in is the research and development of military systems. Since this code parses gunshots individually and saves them into txt files, I utilized this project for my other personal project, [Bullet Classification](https://github.com/parksung123/BulletClassification). 
+
+# Help and References
+I received help from many MATLAB Q&As. 
