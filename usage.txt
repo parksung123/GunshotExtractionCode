@@ -1,5 +1,0 @@
-%% TDMS to MAT
-[ConvertedData]=convertTDMS(true,'Voltage.tdms');
-load('Voltage.mat')
-
-% Data = ConvertedData.Data.MeasuredData(3).Data; % <- 1번 채널 ...MeasuredData(4).Data 2번채널...
